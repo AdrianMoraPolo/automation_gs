@@ -32,8 +32,8 @@ Con Pytest Html he añadido una funcionalidad para que cada vez que se ejecute u
 
 ![html](https://user-images.githubusercontent.com/50373485/208444724-eebca571-0e93-47d3-89c0-883d2a446a3e.jpg)
 - test_end2end.py
-  - Para lanzar "test_end2end.py" debemos tener abierto el proyecto y en el ternimal escribimos `pytest .\test_end2end.py  --html=Reporte_end2end` y se lanzará el test. Cuando finalice tendremos un reporte en el terminal y también se creará un archivo html llamado "Reporte_end2end". Además tendremos otra evidencia, un Screenshot que se guardará en la carpeta "Screenshots" llamado "welcome.png"
-  - Otra opción para lanzar "test_end2end.py" es hacer click en el botón verde de RUN en Pycharm con el test seleccionado, pero no obtendremos el html de resultados
+  - Para lanzar "applesearch.py" debemos tener abierto el proyecto y en el ternimal escribimos `pytest .\applesearch.py  --html=Reporte_test` y se lanzará el test. Cuando finalice tendremos un reporte en el terminal y también se creará un archivo html llamado "Reporte_test". Además tendremos otra evidencia, un Screenshot que se guardará en la carpeta "Screenshots" llamado "screenshot.png"
+  - Otra opción para lanzar "applesearch.py" es hacer click en el botón verde de RUN en Pycharm con el test seleccionado, pero no obtendremos el html de resultados
   - ¿Que hace exactamente este test? 
     - Abrimos el navegador de google.es
     - Buscamos "apple"
